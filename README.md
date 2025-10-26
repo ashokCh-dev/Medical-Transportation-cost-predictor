@@ -1,14 +1,14 @@
-# 🏥 Medical Equipments Cost Prediction Challenge
+#  Medical Equipments Cost Prediction Challenge
 
 A Machine Learning project developed for the **AIT 511 / Machine Learning** course at IIIT Bangalore.  
 This repository implements preprocessing, feature engineering, and multiple regression models to predict medical equipment transportation costs.
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 The task is based on the Kaggle competition:  
-🔗 [Medical Equipments Cost Prediction Challenge](https://www.kaggle.com/competitions/Medical-Equipments-Cost-Prediction-Challenge)
+ [Medical Equipments Cost Prediction Challenge](https://www.kaggle.com/competitions/Medical-Equipments-Cost-Prediction-Challenge)
 
 The dataset contains hospital, supplier, and shipment details such as:
 - Equipment dimensions and value  
@@ -20,7 +20,7 @@ The target variable is **`Transport_Cost`** — the total cost of equipment tran
 
 ---
 
-## 🧰 Libraries Used
+## Libraries Used
 
 | Category | Libraries |
 |-----------|------------|
@@ -31,7 +31,7 @@ The target variable is **`Transport_Cost`** — the total cost of equipment tran
 
 ---
 
-## 🧼 Data Preprocessing
+## Data Preprocessing
 
 Preprocessing steps were implemented via a unified **scikit-learn Pipeline** for reproducibility.
 
@@ -59,7 +59,7 @@ Preprocessing steps were implemented via a unified **scikit-learn Pipeline** for
 
 ---
 
-## 🧠 Models and Tuning
+## Models and Tuning
 
 Multiple regression algorithms were trained and tuned via `GridSearchCV`:
 
@@ -77,7 +77,7 @@ Multiple regression algorithms were trained and tuned via `GridSearchCV`:
 
 ---
 
-## 🏆 Best Model
+## Best Model
 
 **Elastic Net Regression**
 
@@ -87,7 +87,7 @@ The Elastic Net’s hybrid regularization balanced sparsity (L1) and stability (
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 The repository includes:
 - **Density Plots** for numeric features (`density_<feature>.png`)  
