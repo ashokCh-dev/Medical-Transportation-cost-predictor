@@ -85,15 +85,4 @@ Multiple regression algorithms were trained and tuned via `GridSearchCV`:
 Feature–cost relationships were largely linear, making linear models more effective than ensembles, which overfitted due to limited data.  
 The Elastic Net’s hybrid regularization balanced sparsity (L1) and stability (L2), improving generalization.
 
----
 
-## Visualizations
-
-The repository includes:
-- **Density Plots** for numeric features (`density_<feature>.png`)  
-- **Scatter plots** of `Transport_Cost` vs features  
-- **Correlation Heatmap** (`heatmap.png`)  
-
-All plots are auto-generated using:
-```bash
-python plot_density_all.py
