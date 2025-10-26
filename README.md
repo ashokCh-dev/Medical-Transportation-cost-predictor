@@ -68,7 +68,7 @@ Multiple regression algorithms were trained and tuned via `GridSearchCV`:
 | Linear Regression | `fit_intercept=True` | 3,979,238,797 |
 | Ridge Regression | `alpha=0.001` | 3,979,238,713 |
 | Lasso Regression | `alpha=0.0001` | 3,980,875,734 |
-| ElasticNetCV | `alpha=0.0001, l1_ratio=0.1` | 3,979,365,797 |
+| ElasticNetCV | `alpha=0.0001, l1_ratio=0.1` | 3,979,230,372 |
 | Polynomial (deg=2) | `degree=2` | 16,549,063,826 |
 | Random Forest | `n_estimators=100, max_depth=8` | 11,653,441,928 |
 | AdaBoost | `n_estimators=100, learning_rate=0.2` | 8,913,577,487 |
